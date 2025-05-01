@@ -1,6 +1,1 @@
 @import "tailwindcss";
-
-input[type="checkbox"]:checked {
-    background-color: #020202 !important;
-    border: 2px solid #141414 !important;
-  }
