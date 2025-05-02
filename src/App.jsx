@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
+import DashController from "./projects/06/DashController";
+// import ApiEstractor from "./projects/04/ApiEstractor";
+// import LikePhono from "./projects/03/LikePhono";
+// import RandomizeColors from "./projects/02/RandomizeColors";
+// import Esignature from "./projects/Esignature";
+// import Alerts from "./projects/05/Alerts";
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-stone-600 underline">Hola mundo</h1>
+      {/* <Esignature /> */}
+      {/* <RandomizeColors /> */}
+      {/* <LikePhono /> */}
+      {/* <ApiEstractor /> */}
+      {/* <Alerts /> */}
+      <DashController />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
