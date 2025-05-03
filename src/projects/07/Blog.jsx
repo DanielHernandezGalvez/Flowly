@@ -16,7 +16,11 @@ const Blog = () => {
       </span>
       <button
         onClick={changeTheme}
-        className={`${theme === "dark" ? "bg-gray-800 text-white" : "bg-gray-200 text-stone-900"} px-5 py-2 rounded-md mt-5`}
+        className={`${
+          theme === "dark"
+            ? "bg-gray-800 text-white"
+            : "bg-gray-200 text-stone-900"
+        } px-5 py-2 rounded-md mt-5`}
       >
         {theme}
       </button>
